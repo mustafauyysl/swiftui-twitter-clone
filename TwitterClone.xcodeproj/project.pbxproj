@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4550F48C25DA07FD00F5236D /* TweetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550F48B25DA07FD00F5236D /* TweetsView.swift */; };
+		4550F49025DA127300F5236D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550F48F25DA127300F5236D /* Tweet.swift */; };
 		4554259A25D970CA00F4983D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554259925D970CA00F4983D /* AppDelegate.swift */; };
 		4554259C25D970CA00F4983D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554259B25D970CA00F4983D /* SceneDelegate.swift */; };
 		4554259E25D970CA00F4983D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554259D25D970CA00F4983D /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4550F48B25DA07FD00F5236D /* TweetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsView.swift; sourceTree = "<group>"; };
+		4550F48F25DA127300F5236D /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		4554259625D970CA00F4983D /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4554259925D970CA00F4983D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4554259B25D970CA00F4983D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				4554259925D970CA00F4983D /* AppDelegate.swift */,
 				4554259B25D970CA00F4983D /* SceneDelegate.swift */,
 				4554259D25D970CA00F4983D /* ContentView.swift */,
+				4550F48B25DA07FD00F5236D /* TweetsView.swift */,
 				4554259F25D970CE00F4983D /* Assets.xcassets */,
 				455425A425D970CE00F4983D /* LaunchScreen.storyboard */,
 				455425A725D970CE00F4983D /* Info.plist */,
 				455425A125D970CE00F4983D /* Preview Content */,
+				4550F48F25DA127300F5236D /* Tweet.swift */,
 			);
 			path = TwitterClone;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4554259A25D970CA00F4983D /* AppDelegate.swift in Sources */,
+				4550F49025DA127300F5236D /* Tweet.swift in Sources */,
 				4554259C25D970CA00F4983D /* SceneDelegate.swift in Sources */,
+				4550F48C25DA07FD00F5236D /* TweetsView.swift in Sources */,
 				4554259E25D970CA00F4983D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
